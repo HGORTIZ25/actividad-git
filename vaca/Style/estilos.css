@@ -1,0 +1,113 @@
+body{
+   
+    background-color: black;
+    background-image: url();
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabezera{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    gap: 5rem;
+    justify-content: center;
+   
+}
+#imagen1{
+    height: 70%;
+    width: 60%;
+}
+.redes{
+    color: #fff;
+    flex-direction:column ;  
+    display: grid;
+    border: #fff solid 1PX;
+    border-radius: 10px;
+    
+}
+#redes{
+    height: 40px;
+    width: 40px;  
+}
+.REDES2{
+    
+    border-radius: 10PX;
+    display: flex;
+    justify-content: center;
+    gap: 5REM;
+
+}
+.social{
+    display: flex;
+    gap: 1rem;
+    
+    
+    
+}
+@media (min-width: 360px) and (max-width: 1768px) {
+    .cabezera{
+       display: grid;
+       place-items: center;
+       gap: 1rem;
+       width: 100%;
+    }
+    body{
+        background-image: ;
+    }
+    #imagen1{
+    width: 0px;
+    }
+   .resumen{
+   }
+   .REDES2{
+    display: grid;
+    place-items: center;
+   }
+   .social{
+    font-size: 10px;
+   }
+   .h1{
+    margin-top: 10%;
+   }
+   
+}
+a{
+   
+    text-decoration: none;
+    color:  rgb(26, 238, 54);
+    font-size: 30px ;
+    margin-top: 20px;
+   
+    transition: all.9s;
+}
+a:hover{
+    transform: scale(1.1);
+    text-decoration: underline ;
+}
+.imagen1{
+    width: 1500px;
+}
+.imagen{
+    margin-top: 1%;
+    display: grid;
+    place-items: center;
+}
+.resumen{
+    text-align: center;
+
+    color: #fff;
+}
+
+.gitlogo{
+    
+    width: 60px;
+    height: 60px;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.h1verde{
+    color:  rgb(26, 238, 54);
+}
